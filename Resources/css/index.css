@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: large;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px 10px;
+    z-index: 2;
+}
+
+ul.nav li {
+    display: inline-block;
+    width: 150px;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+body {
+    background-color: gray;
+    position: relative;
+    top: 70px;
+}
+
+.container {
+    position: relative;
+    bottom: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+
+
+h1 {
+    text-indent: 45px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+}
+
+h2 {
+    text-indent: 45px;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+.color-container {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+.Crimson {
+    background-color: crimson;
+}
+
+.Mint-Green {
+    background-color: #98FF98;
+}
+
+.Periwinkle {
+    background-color: #CCCCFF;
+}
+
+.Salmon {
+    background-color:salmon;
+}
+
+.Orchid {
+    background-color: orchid;
+}
+
+.Midnight-Blue {
+    background-color: midnightblue;
+}
+
+.font-container {
+    display: inline-block;
+    width: 400px;
+    height: 100%;
+    margin: 50px;
+}
+
+.font-title {
+    text-decoration: underline;
+}
+
+.Bokor {
+    font-family: Bokor, Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.Oswald {
+    font-family: Oswald, Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.YujiMai {
+    font-family: 'Yuji Mai', Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.Montserrat {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.font-title {
+    font-size: larger;
+}
+
+.font-italics {
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-style-container {
+    display: inline-block;
+    width: 400px;
+    height: 100%;
+    margin: 50px;
+}
+
+.text-style-container a {
+    line-height: 5;
+}
